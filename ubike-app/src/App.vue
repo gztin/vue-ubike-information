@@ -1,15 +1,16 @@
 <template>
   <div id="app">
     <h1>YouBike 臺北市公共自行車即時資訊</h1>
+    <UbikeTable />
   </div>
 </template>
 
 <script>
-
+import UbikeTable from "./components/UbikeTable.vue";
 export default {
   name: "App",
   components: {
-
+    UbikeTable
   }
 };
 </script>
